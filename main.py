@@ -7,7 +7,7 @@ USER_AGENT = 'fluffmoln-discogs-collection'
 
 # Set up the API endpoint and headers
 #endpoint = 'https://api.discogs.com/users/{username}/collection/folders/0/releases'
-endpoint_folders = 'https://api.discogs.com//users/{username}/collection/folders'
+endpoint_folders = 'https://api.discogs.com/users/{username}/collection/folders'
 headers = {
     'User-Agent': USER_AGENT,
     'Authorization': f'Discogs token={API_KEY}'
